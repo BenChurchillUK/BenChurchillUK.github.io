@@ -4,9 +4,14 @@
 
 .mainnavbar {
   background-color: #333333;
+  width: auto;
 }
 
 /* Background */
+
+header {
+  background-color: #333333;
+}
 
 body {
   background-color: #F5F5F5;
