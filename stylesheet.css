@@ -8,28 +8,12 @@ Used for primary text, making it clear and highly readable.
 Light Gray (Hex: #F5F5F5)       Overall Background
 White (Hex: #FFFFFF)            Background (Content Sections)
                                 Used for sections like "About", "Achievements", etc., to create contrast and highlight content.
-
-3. Border & Divider Colors
 Medium Gray (Hex: #B0B0B0)      Borders (around content sections):
 Subtle and neutral, these borders help separate sections without being too overpowering.
-Cyan Border (Hex: #00A9CE)     Borders (under the header and section headings):
-
-
-A vibrant, attention-grabbing color used for borders and highlights.
-4. Hover Effects and Accent Colors
-Hover Links and Buttons:
-
-Dark Cyan:
-Hex: #007B8C
-This color is used for hover effects to create a sense of interaction and engagement.
-Button Background:
-
-Cyan:
-Hex: #00A9CE
-This is the primary accent color used for clickable elements like buttons.
-5. Footer and Header
-Dark Gray (Header and Footer):
-Hex: #333333
+Cyan Border (Hex: #00A9CE)     Borders (under the header and section headings). A vibrant, attention-grabbing color used for borders and highlights.
+Dark Cyan (Hex: #007B8C) This color is used for hover effects to create a sense of interaction and engagement, Hover Links and Buttons
+Cyan (Hex: #00A9CE)           Primary accent color used for clickable elements like buttons
+Dark Gray (Hex: #333333)      Header and Footer
 A darker, more subdued color used in the header and footer to make them stand out while keeping the focus on the content.
 6. Accent Color
 Cyan Underline on Headings:
@@ -65,7 +49,9 @@ Header & Footer: Dark Gray (#333333)
   background-color: #333333;
   padding: 10px;
   width: auto;
+}
 
+.mainnavbarlinks {
   /*Setting the Font */
   text-decoration: none;
   font-family: 'Trykker', serif;
