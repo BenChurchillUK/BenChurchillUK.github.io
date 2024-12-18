@@ -1,5 +1,54 @@
 /* Formatting for https://benchurchilluk.github.io/ */
 
+/* 
+1. Text Color
+Black Text:
+Hex: #000000
+Used for primary text, making it clear and highly readable.
+2. Background Colors
+Light Gray Background (for the overall page):
+Hex: #F5F5F5
+A neutral, soft background that makes the content pop without being too harsh.
+White Background (for content sections):
+Hex: #FFFFFF
+Used for sections like "About", "Achievements", etc., to create contrast and highlight content.
+3. Border & Divider Colors
+Medium Gray Borders (around content sections):
+
+Hex: #B0B0B0
+Subtle and neutral, these borders help separate sections without being too overpowering.
+Cyan Border (under the header and section headings):
+
+Hex: #00A9CE
+A vibrant, attention-grabbing color used for borders and highlights.
+4. Hover Effects and Accent Colors
+Hover Links and Buttons:
+
+Dark Cyan:
+Hex: #007B8C
+This color is used for hover effects to create a sense of interaction and engagement.
+Button Background:
+
+Cyan:
+Hex: #00A9CE
+This is the primary accent color used for clickable elements like buttons.
+5. Footer and Header
+Dark Gray (Header and Footer):
+Hex: #333333
+A darker, more subdued color used in the header and footer to make them stand out while keeping the focus on the content.
+6. Accent Color
+Cyan Underline on Headings:
+Hex: #00A9CE
+This color is used for underlining section headings (like "Achievements" or "About Me"), helping to break the content into visually distinct parts.
+Visual Summary of the Color Breakdown:
+Primary Text: Black (#000000)
+Background: Light Gray (#F5F5F5), White (#FFFFFF)
+Borders: Medium Gray (#B0B0B0)
+Accent Color: Cyan (#00A9CE)
+Hover Color: Dark Cyan (#007B8C)
+Header & Footer: Dark Gray (#333333)
+*/
+
 /* Importing Relevant Fonts */
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pridi|Trykker|Nobile|Syncopate|Audiowide|Merriweather">
@@ -25,6 +74,7 @@
   /*Setting the Font */
   text-decoration: none;
   font-family: 'Trykker', serif;
+  color: #FFFFFF;
 }
 
 /* Background */
