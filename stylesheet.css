@@ -2,24 +2,19 @@
 
 /* 
 1. Text Color
-Black Text:
-Hex: #000000
+Black Text (Hex: #000000):
+
 Used for primary text, making it clear and highly readable.
-2. Background Colors
-Light Gray Background (for the overall page):
-Hex: #F5F5F5
-A neutral, soft background that makes the content pop without being too harsh.
-White Background (for content sections):
-Hex: #FFFFFF
-Used for sections like "About", "Achievements", etc., to create contrast and highlight content.
+Light Gray (Hex: #F5F5F5)       Overall Background
+White (Hex: #FFFFFF)            Background (Content Sections)
+                                Used for sections like "About", "Achievements", etc., to create contrast and highlight content.
+
 3. Border & Divider Colors
-Medium Gray Borders (around content sections):
-
-Hex: #B0B0B0
+Medium Gray (Hex: #B0B0B0)      Borders (around content sections):
 Subtle and neutral, these borders help separate sections without being too overpowering.
-Cyan Border (under the header and section headings):
+Cyan Border (Hex: #00A9CE)     Borders (under the header and section headings):
 
-Hex: #00A9CE
+
 A vibrant, attention-grabbing color used for borders and highlights.
 4. Hover Effects and Accent Colors
 Hover Links and Buttons:
