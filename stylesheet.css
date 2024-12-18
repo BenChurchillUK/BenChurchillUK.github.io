@@ -48,6 +48,7 @@ Header & Footer: Dark Gray (#333333)
   
   background-color: #333333;
   padding: 10px;
+  gap: 20px;
   width: auto;
 }
 
