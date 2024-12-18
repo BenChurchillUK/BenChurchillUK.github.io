@@ -58,6 +58,26 @@ Header & Footer: Dark Gray (#333333)
   color: #FFFFFF;
 }
 
+/* Key Components */
+
+.mainheading {
+  /*Setting the background*/
+  background-color: #333333;
+
+  /*Setting the Font*/
+  font-family: 'Pridi', serif;
+  color: #FFFFFF;
+}
+
+.keysections{
+  /*Setting the background*/
+  background-color: #333333;
+
+  /*Setting the Font*/
+  font-family: 'Pridi', serif;
+  color: #FFFFFF;
+}
+
 /* Background */
 
 header {
