@@ -1,10 +1,28 @@
 /* Formatting for https://benchurchilluk.github.io/ */
 
+/* Importing Relevant Fonts */
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pridi|Trykker|Nobile|Syncopate|Audiowide|Merriweather">
+
+/* Pridi - Titles (Professional) */             /* font-family: 'Pridi', serif; */
+/* Trykker - Headings (Professional) */         /* font-family: 'Trykker', serif; */
+/* Nobile - Text (Professional) */              /* font-family: 'Nobile', sans-serif; */
+/* Syncopate - (Techno) */                      /* font-family: 'Syncopate', sans-serif; */
+/* Audiowide - (Techno) */                      /* font-family: 'Audiowide', sans-serif; */
+/* Merriweather - (Techno) */                   /* font-family: 'Merriweather', serif; */
+
+
+
 /* Main Navigation Bar */
 
 .mainnavbar {
+  /*Setting the Background/Navigation Bar*/
+  
   background-color: #333333;
   width: auto;
+
+  /*Setting the Font */
+  font-family: 'Trykker', serif;
 }
 
 /* Background */
