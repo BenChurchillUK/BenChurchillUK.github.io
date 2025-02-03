@@ -39,7 +39,9 @@ Header & Footer: Dark Gray (#333333)
 /* Audiowide - (Techno) */                      /* font-family: 'Audiowide', sans-serif; */
 /* Merriweather - (Techno) */                   /* font-family: 'Merriweather', serif; */
 
-
+body {
+  background-size: cover;
+}
 
 /* Main Navigation Bar */
 
