@@ -86,19 +86,3 @@ body {
   font-family: 'Pridi', serif;
   color: #FFFFFF;
 }
-
-/* Background */
-
-header {
-  background-color: #333333;
-  width: auto;
-}
-
-body {
-  background-color: #F5F5F5;
-}
-
-h1 {
-  color: navy;
-  margin-left: 20px;
-}
