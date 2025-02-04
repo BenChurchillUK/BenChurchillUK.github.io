@@ -44,6 +44,10 @@ body {
   background-color: #F5F5F5;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 /* Main Navigation Bar */
 
 .mainnavbar {
@@ -76,6 +80,21 @@ body {
   font-family: 'Pridi', serif;
   color: #333333;
   text-decoration: underline;
+}
+
+.left-sidebar {
+  width: 15%;
+  padding: 10px;
+}
+
+.right-sidebar {
+  width: 15%;
+  padding: 10px;
+}
+
+.centre-content {
+  width: 70%;
+  padding: 10px;
 }
 
 .keysections{
