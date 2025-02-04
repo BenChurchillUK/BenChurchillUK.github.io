@@ -74,13 +74,11 @@ body {
 
   /*Setting the Font*/
   font-family: 'Pridi', serif;
-  color: #B0B0B0;
+  color: #333333;
   text-decoration: underline;
 }
 
 .keysections{
-  /*Setting the background*/
-  background-color: #333333;
 
   /*Setting the Font*/
   font-family: 'Pridi', serif;
