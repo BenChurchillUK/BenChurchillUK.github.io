@@ -49,7 +49,7 @@ body {
   /*Setting the Background/Navigation Bar*/
   
   background-color: #333333;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 0;
   gap: 20px;
   width: 100%;
