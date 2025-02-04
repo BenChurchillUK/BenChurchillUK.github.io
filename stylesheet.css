@@ -70,11 +70,11 @@ body {
 
 .mainheading {
   /*Setting the background*/
-  background-color: #333333;
 
   /*Setting the Font*/
   font-family: 'Pridi', serif;
-  color: #FFFFFF;
+  color: #B0B0B0;
+  text-decoration: underline;
 }
 
 .keysections{
