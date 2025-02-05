@@ -1,5 +1,7 @@
 // Economic World Map
 
+const color = d3.scaleOrdinal(d3.schemeCategory10);
+
 let EconWorldMapWidth = 1000;
 let EconWorldMapHeight = 800;
 
@@ -7,9 +9,9 @@ let EconWorldMapProjection = d3
     .geoEquirectangular()
 ;
 
-let EconWorlMapPath = ds
+let EconWorlMapPath = d3
     .geoPath()
-    .projection(EconomicWorldMapProjection)
+    .projection(EconWorldMapProjection)
 ;
 
 let EconWorldMapSVG = d3.select("#svganchor")
@@ -18,14 +20,17 @@ let EconWorldMapSVG = d3.select("#svganchor")
     .attr("height", EconWorldMapHeight)
 ;
 
-d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.io/refs/heads/main/Assets/worldmap.json", (json) => {
-
-svg.selectAll("EconWorldMapPath")
-    .data(json.features)
-    .enter()
-    .append("EconWorldMapPath")
-    .attr("d", path)
-    .attr("stroke", "dimgray")
-    .attr("fill", (d, i) => {return color(i)});
+d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.io/refs/heads/main/Assets/worldmap.json"
+    .then(function(json) {
+        svg.selectAll("path")
+            .data(json.features)
+            .enter()
+            .append("path")
+            .attr("d", "EconWorldMapPath)
+            .attr("stroke", "dimgray")
+            .attr("fill", (d, i) => {return color(i); });
+    })
+    .catch(function(error) {
+        console.error("Error loading GeoJSON: ", error);
 });
 
