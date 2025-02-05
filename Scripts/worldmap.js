@@ -28,7 +28,7 @@ d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.
                 type: "Feature",
                 geometry: geometry,
                 properties: {}
-            })
+            }))
         };
         EconWorldMapSVG.selectAll("path")
             .data(json.features)
