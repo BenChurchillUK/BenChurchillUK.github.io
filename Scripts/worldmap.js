@@ -1,4 +1,4 @@
-// Economic World Map
+u// Economic World Map
 
 const color = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -33,7 +33,7 @@ d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.
             }))
         };
         EconWorldMapSVG.selectAll("path")
-            .data(json.features)
+            .data(featureCollection.features)
             .enter()
             .append("path")
             .attr("d", EconWorldMapPath)
