@@ -22,6 +22,14 @@ let EconWorldMapSVG = d3.select("#svganchor")
 
 d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.io/refs/heads/main/Assets/worldmap.json")
     .then(function(json) {
+        const featureCollection = {
+            type: "FeatureCollection",
+            features: json.geometries.map(geometry => ({
+                type: "Feature",
+                geometry: geometry,
+                properties: {}
+            })
+        };
         EconWorldMapSVG.selectAll("path")
             .data(json.features)
             .enter()
