@@ -7,6 +7,8 @@ let EconWorldMapHeight = 800;
 
 let EconWorldMapProjection = d3
     .geoEquirectangular()
+    .scale(150)
+    .translate([EconWorldMapWidth / 2, EconWorldMapHeight / 2])
 ;
 
 let EconWorlMapPath = d3
