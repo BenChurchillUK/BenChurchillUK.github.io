@@ -20,13 +20,13 @@ let EconWorldMapSVG = d3.select("#svganchor")
     .attr("height", EconWorldMapHeight)
 ;
 
-d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.io/refs/heads/main/Assets/worldmap.json"
+d3.json("https://raw.githubusercontent.com/BenChurchillUK/BenChurchillUK.github.io/refs/heads/main/Assets/worldmap.json")
     .then(function(json) {
-        svg.selectAll("path")
+        EconWorldMapSVG.selectAll("path")
             .data(json.features)
             .enter()
             .append("path")
-            .attr("d", "EconWorldMapPath)
+            .attr("d", EconWorldMapPath)
             .attr("stroke", "dimgray")
             .attr("fill", (d, i) => {return color(i); });
     })
