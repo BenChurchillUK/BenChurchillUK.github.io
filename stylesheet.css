@@ -78,6 +78,14 @@ footer {
 }
 
 .navdropbutton {
+  color: white;
+  background: none;
+  border: none;
+  font-family: 'Trykker', serif;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .navdropcontent {
