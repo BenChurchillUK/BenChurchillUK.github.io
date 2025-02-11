@@ -115,16 +115,19 @@ footer {
 .left-sidebar {
   width: 15%;
   padding: 10px;
+  display: flex;
 }
 
 .right-sidebar {
   width: 15%;
   padding: 10px;
+  display: flex;
 }
 
 .centre-content {
   width: 70%;
   padding: 10px;
+  display: flex;
 }
 
 .keysections{
