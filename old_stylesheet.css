@@ -1,0 +1,143 @@
+/* 
+1. Text Color
+Black Text (Hex: #000000):
+
+Used for primary text, making it clear and highly readable.
+Light Gray (Hex: #F5F5F5)       Overall Background
+White (Hex: #FFFFFF)            Background (Content Sections)
+                                Used for sections like "About", "Achievements", etc., to create contrast and highlight content.
+Medium Gray (Hex: #B0B0B0)      Borders (around content sections):
+Subtle and neutral, these borders help separate sections without being too overpowering.
+Cyan Border (Hex: #00A9CE)     Borders (under the header and section headings). A vibrant, attention-grabbing color used for borders and highlights.
+Dark Cyan (Hex: #007B8C) This color is used for hover effects to create a sense of interaction and engagement, Hover Links and Buttons
+Cyan (Hex: #00A9CE)           Primary accent color used for clickable elements like buttons
+Dark Gray (Hex: #333333)      Header and Footer
+A darker, more subdued color used in the header and footer to make them stand out while keeping the focus on the content.
+6. Accent Color
+Cyan Underline on Headings:
+Hex: #00A9CE
+This color is used for underlining section headings (like "Achievements" or "About Me"), helping to break the content into visually distinct parts.
+Visual Summary of the Color Breakdown:
+Primary Text: Black (#000000)
+Background: Light Gray (#F5F5F5), White (#FFFFFF)
+Borders: Medium Gray (#B0B0B0)
+Accent Color: Cyan (#00A9CE)
+Hover Color: Dark Cyan (#007B8C)
+Header & Footer: Dark Gray (#333333)
+*/
+
+/* Importing Relevant Fonts */
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pridi|Trykker|Nobile|Syncopate|Audiowide|Merriweather">
+
+/* Pridi - Titles (Professional) */             /* font-family: 'Pridi', serif; */
+/* Trykker - Headings (Professional) */         /* font-family: 'Trykker', serif; */
+/* Nobile - Text (Professional) */              /* font-family: 'Nobile', sans-serif; */
+/* Syncopate - (Techno) */                      /* font-family: 'Syncopate', sans-serif; */
+/* Audiowide - (Techno) */                      /* font-family: 'Audiowide', sans-serif; */
+/* Merriweather - (Techno) */                   /* font-family: 'Merriweather', serif; */
+
+
+/* Formatting Structure */
+
+body {
+  background-size: cover;
+  background-color: #F5F5F5;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+/* Navigation Bar */
+
+.mainnavbar {
+  /*Setting the Background/Navigation Bar*/
+  
+  background-color: #333333;
+  justify-content: space-between;
+  padding: 10px 0;
+  gap: 20px;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainnavbarlinks {
+  /*Setting the Font */
+  text-decoration: none;
+  font-family: 'Trykker', serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 15px;
+}
+
+.navdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navdropbutton {
+  color: white;
+  background: none;
+  border: none;
+  font-family: 'Trykker', serif;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navdropcontent {
+  display: none;
+  position: absolute;
+  background-color: #333333;
+  min-width: 300px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.show {
+  display: block;
+}
+
+/* Key Components */
+
+.mainheading {
+  /*Setting the background*/
+
+  /*Setting the Font*/
+  font-family: 'Pridi', serif;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.pagelayout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-sidebar {
+  width: 15%;
+  padding: 10px;
+  display: flex;
+}
+
+.centre-content {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+}
+
+.right-sidebar {
+  width: 15%;
+  padding: 10px;
+  display: flex;
+}
+
+.keysections{
+
+  /*Setting the Font*/
+  font-family: 'Pridi', serif;
+  color: #FFFFFF;
+}
