@@ -4,8 +4,8 @@
 
 body {
   font-family: 'Merriweather', serif;
-  color: #000000;
-  background-color: #F5F5F5;
+  color: #2E2E2E;
+  background-color: #F5F5F2;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
 /* Navigation */
 
 nav {
-  background-color: #333333;
+  background-color: #8A8A8A;
   padding: 1rem 2rem;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ nav {
 }
 
 nav a {
-  color: #FFFFFF;
+  color: #F5F5F2;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
