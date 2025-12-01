@@ -14,7 +14,7 @@ body {
 /* Navigation */
 
 nav {
-  background-color: #8A8A8A;
+  background-color: #333840;
   padding: 1rem 2rem;
   display: flex;
   justify-content: center;
@@ -31,5 +31,5 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 2px solid #00A9CE; /* Accent cyan */
+  border-bottom: 2px solid #2C3E50; /* Accent cyan */
 }
