@@ -33,3 +33,9 @@ nav a {
 nav a:hover {
   border-bottom: 2px solid #2C3E50;
 }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
